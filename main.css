@@ -180,7 +180,7 @@ a {
 
 .resume {
     flex: 3;
-    color: var(--blue1);
+    /* color: var(--blue1); */
 }
 .page-number {
     flex: 1;
