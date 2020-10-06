@@ -26,21 +26,13 @@ body {
     background: #fff;
     width: var(--page-width);
     height: var(--page-height);
-    /* display: block; */
-    
     margin: 10mm auto;
-    /* border: 1px #D3D3D3 solid; */
     box-shadow: 0 0 0.3cm rgba(0, 0, 0, 0.3);
     border-radius: 5px;
 }
 
 .subpage {
-    /* padding: var(--page-padding) 0; */
-    /* padding: 1cm; */
-    /* border: 5px red solid; */
-    /*.page height -40mm (20 off top/bottom)*/
-    /* height: calc(var(--page-height) - 2 * var(--page-padding));  */
-    /* outline: 2cm #FFEAEA solid; */
+    padding: var(--page-padding) 0;
 }
 
 @page {
@@ -67,9 +59,7 @@ body {
 
 a {
     color: var(--link);
-    /* opacity: 70%; */
     font-style: normal;
-    /* font-weight: bold; */
     text-decoration: none;
 }
 
@@ -78,7 +68,6 @@ a {
     font-weight: bold;
     margin-top:0;
     color: var(--blue1);
-    /* letter-spacing: 0.02em; */
 }
 
 .job {
@@ -92,41 +81,28 @@ a {
     margin-top: 1.5mm;
     margin-bottom:0.5em;
     text-align: center;
-    /* color: var(--blue1); */
     font-weight: 500;
 }
 
 .header {
     display: flex;
     align-items: flex-end;
-    /* align-content: stretch;
-    justify-content: stretch; */
-    /* width: 100%; */
 }
 
 .header-container {
     background-color: #ffffff;
     padding: 0 var(--page-padding);
-    padding-bottom: 0mm;
-    padding-top: 15mm;
-    /* border-bottom: solid 1px var(--body-color); */
 }
 .title {
     flex-grow: 3;
-    /* height: 20mm; */
 }
-.header-item{
-    /* flex-grow: 1 */
-    /* align-self: baseline; */
-}
+
 .contact {
     text-align: right;
     flex-grow: 1;
     flex-basis: 20%;
     line-height: 150%;
     margin-bottom:0.5em;
-    /* height: 20mm; */
-    /* align-self: flex-end; */
     font-size: 10pt;
 }
 
@@ -139,13 +115,11 @@ a {
     margin-bottom: 0;
     font-weight: 600;
     color: var(--blue1);
-    /* opacity: 90%; */
 }
 
 .group-header {
     font-size: 12pt;
     margin-bottom: 0.1em;
-    /* color: var(--blue2); */
     margin-top: 0;
     font-weight: 500;
 }
@@ -162,12 +136,10 @@ a {
     display: flex;
     font-weight: 500;
     margin-bottom: 0;
-    /* color: var(--blue2); */
 }
 
 .dates {
     padding-left: 1em;
-    /* color: #0249b5; */
     text-align: right;
     flex-grow:1;
     
@@ -180,7 +152,6 @@ a {
 
 .resume {
     flex: 3;
-    /* color: var(--blue1); */
 }
 .page-number {
     flex: 1;
